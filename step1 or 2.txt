@@ -1,0 +1,113 @@
+ step1:
+
+1 On your computer, open Chrome.
+2 At the top right, click More. Settings.
+3 At the bottom, click Advanced.
+4 Under 'Languages', click Language.
+5 Next to the language that you'd like to use, click More . ...
+6 Turn Offer to translate pages in this language on or off.
+
+
+
+step 2:
+
+
+
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+This page will explain the most basic CSS selectors.
+
+The CSS element Selector
+The element selector selects HTML elements based on the element name.
+
+Example
+Here, all <p> elements on the page will be center-aligned, with a red text color: 
+
+p {
+  text-align: center;
+  color: red;
+}
+The CSS id Selector
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+Example
+The CSS rule below will be applied to the HTML element with id="para1": 
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+
+
+
+Font Selection is Important
+Choosing the right font has a huge impact on how the readers experience a website.
+
+The right font can create a strong identity for your brand.
+
+Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+Generic Font Families
+In CSS there are five generic font families:
+
+Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+Cursive fonts imitate human handwriting.
+Fantasy fonts are decorative/playful fonts.
+
+
+Font Selection is Important
+Choosing the right font has a huge impact on how the readers experience a website.
+
+The right font can create a strong identity for your brand.
+
+Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+Generic Font Families
+In CSS there are five generic font families:
+
+Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+Cursive fonts imitate human handwriting.
+Fantasy fonts are decorative/playful fonts.
+
+
+A <span> element which is used to color a part of a text:
+
+<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+
+
+
+CSS stands for Cascading Style Sheets.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+
+code:
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PUBLICATION DATE:</font></font> 02/18/2021</span>
+<p><font style="vertical-align: inherit;">OBJECT:</font><span>Price Registration for a period of 12 months, for the purchase of galvanized clamps.</span></p>
+<font style="vertical-align: inherit;">BIDDING DATE:</font><span>02/18/2021 </span>
+
+</body>
+</html>
